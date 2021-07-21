@@ -39,4 +39,4 @@ jobs:
       - name: installimg surge
         run: npm install -g surge
       - name: deploying on surge
-        run: surge ./build sulemanreactapplication.surge.sh --token ${{ secrets.SURGETOKEN }}
+        run: surge ./build http://sulemansarwarproject001.surge.sh/ --token ${{ secrets.SURGETOKEN }}
